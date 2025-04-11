@@ -74,4 +74,4 @@ if (require.main === module) {
   main();
 }
 
-module.exports = main;
+exports.handler = main;
