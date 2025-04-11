@@ -73,3 +73,5 @@ const main = async () => {
 if (require.main === module) {
   main();
 }
+
+module.exports = main;
